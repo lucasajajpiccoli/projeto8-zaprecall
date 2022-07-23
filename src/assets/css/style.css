@@ -24,7 +24,7 @@ body {
 }
 
 .welcome div:nth-child(2),
-.top div {
+.header div {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 36px;
@@ -49,7 +49,7 @@ body {
     align-items: center;
 }
 
-.top {
+.header {
     width: 255px;
     height: 60px;
     margin: 45px auto;
@@ -58,7 +58,7 @@ body {
     align-items: center;
 }
 
-.top img {
+.header img {
     width: 52px;
 }
 
@@ -184,12 +184,68 @@ ion-icon[name="checkmark-circle"] {
     color: #2FBE34;
 }
 
-.bottom {
+.footer {
     width: 100vw;
-    height: 70px;
+    min-height: 70px;
     background-color: #FFFFFF;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
     position: sticky;
     bottom: 0;
     left: 0;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result_status,
+.concluded,
+.result_icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.result_status span,
+.result_message,
+.concluded {
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+
+.result_message,
+.concluded {
+    font-weight: 400;
+}
+
+.result_status,
+.result_message {
+    margin-bottom: 15px;
+}
+
+.result_status img {
+    width: 23px;
+    height: 23px;
+    margin-right: 12px;
+}
+
+.result_status span {
+    font-weight: 700;
+
+}
+
+.result_message {
+    width: 220px;
+    text-align: center;
+}
+
+.concluded {
+    margin-bottom: 4px;
+}
+
+.result_icons ion-icon {
+    margin: 0px;
 }
