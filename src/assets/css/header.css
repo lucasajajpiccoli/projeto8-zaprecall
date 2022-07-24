@@ -1,0 +1,21 @@
+.header {
+    width: 255px;
+    height: 60px;
+    margin: 45px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 52px;
+}
+
+.header div {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -1.2%;
+    color: #FFFFFF;
+}

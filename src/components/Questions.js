@@ -1,5 +1,7 @@
 import Question from "./Question";
 
+import "../assets/css/questions.css"
+
 function Questions({deck, iconsAnswered, setIconsAnswered}) {
     return (
         <div clasName="questions">

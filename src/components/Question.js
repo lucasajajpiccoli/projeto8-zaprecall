@@ -3,7 +3,7 @@ import React from 'react';
 import QuestionOpened from "./QuestionOpened";
 import QuestionAnswered from "./QuestionAnswered";
 
-
+import "../assets/css/question.css"
 
 function Question({ question_text, answer_text, position, iconsAnswered, setIconsAnswered }) {
     const statusList = [{

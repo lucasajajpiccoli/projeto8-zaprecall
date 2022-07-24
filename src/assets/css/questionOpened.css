@@ -1,0 +1,22 @@
+.question.opened {
+    height: 130px;
+    background-color: #FFFFD4;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.question.opened span {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    overflow-y: scroll;
+}
+
+.question.opened img {
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}

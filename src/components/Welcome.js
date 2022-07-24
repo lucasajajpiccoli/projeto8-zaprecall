@@ -1,3 +1,5 @@
+import "../assets/css/welcome.css"
+
 import logo from "../assets/img/logo.png";
 
 function Welcome({setScreen}) {

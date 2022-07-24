@@ -1,3 +1,5 @@
+import "../assets/css/questionAnswered.css"
+
 function QuestionAnswered({answer_text, toUpdate, statusList, iconsAnswered, setIconsAnswered}) {
     return (
         <div className="question answered">

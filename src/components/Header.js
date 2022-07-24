@@ -1,3 +1,5 @@
+import "../assets/css/header.css"
+
 import small_logo from "../assets/img/small-logo.png";
 
 function Header() {

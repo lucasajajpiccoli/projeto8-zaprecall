@@ -1,3 +1,5 @@
+import "../assets/css/questionOpened.css"
+
 import small_arrow from "../assets/img/small-arrow.svg";
 
 function QuestionOpened({ question_text, toUpdate, statusList }) {

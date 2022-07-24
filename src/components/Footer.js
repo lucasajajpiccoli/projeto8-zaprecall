@@ -1,3 +1,5 @@
+import "../assets/css/footer.css"
+
 import party from "../assets/img/party.png";
 import sad from "../assets/img/sad.png"
 
