@@ -195,7 +195,7 @@ ion-icon[name="checkmark-circle"] {
     padding: 10px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
